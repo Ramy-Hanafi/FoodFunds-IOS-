@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FoodItem" representedClassName="FoodItem" syncable="YES">
+        <attribute name="brand" optional="YES" attributeType="String"/>
+        <attribute name="calories" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="servSize" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Purchases" representedClassName="Purchases" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="purchaseType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WeightEntry" representedClassName="WeightEntry" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="FoodItem" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="Purchases" positionX="-63" positionY="18" width="128" height="59"/>
+        <element name="WeightEntry" positionX="-63" positionY="18" width="128" height="59"/>
+    </elements>
+</model>
